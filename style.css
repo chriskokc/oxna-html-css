@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+ 
+a:link,
+a:visited {
+    color: teal;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+button:hover {
+    color: white;
+    font-weight: 900;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.modified-text:active {
+    text-decoration: underline;
+    color: green;
+}
+
+/* The German flag */
+.german-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.german-flag-top {
+    background-color: black;
+    height: 30px;
+    width: 180px;
+}
+
+.german-flag-middle {
+    background-color: red;
+    height: 30px;
+    width: 180px;
+}
+
+.german-flag-bottom {
+    background-color: yellow;
+    height: 30px;
+    width: 180px;
+}
+
+/* The German flag changes to become the Hungarian flag on hover */
+.german-flex-container:hover .german-flag-top {
+    background-color: red;
+}
+
+.german-flex-container:hover .german-flag-middle {
+    background-color: white;
+}
+
+.german-flex-container:hover .german-flag-bottom {
+    background-color: green;
+}
+
+/* The French flag */
+.french-flex-container {
+    display: flex;
+}
+
+.french-flag-left {
+    background-color: blue;
+    height: 90px;
+    width: 60px;
+}
+
+.french-flag-middle {
+    background-color: white;
+    height: 90px;
+    width: 60px;
+}
+
+.french-flag-right {
+    background-color: red;
+    height: 90px;
+    width: 60px;
+}
+
+/* The French flag changes to become the Irish flag on hover */
+.french-flex-container:hover .french-flag-left {
+    background-color: green;
+}
+
+.french-flex-container:hover .french-flag-middle {
+    background-color: white;
+}
+
+.french-flex-container:hover .french-flag-right {
+    background-color: orange;
+}
+
+/* The Japanese flag */
+.japanese-container {
+    border: 0.5px solid black;
+    height: 90px;
+    width: 180px;
+    position: relative;
+}
+
+.red-circle {
+    background-color: red;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+
