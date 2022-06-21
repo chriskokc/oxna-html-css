@@ -103,7 +103,7 @@ button:hover {
 }
 
 /* The Japanese flag */
-.japanese-container {
+/* .japanese-container {
     border: 0.5px solid black;
     height: 90px;
     width: 180px;
@@ -118,5 +118,22 @@ button:hover {
     position: absolute;
     top: 25px;
     right: 70px;
+} */
+
+/* Using flexbox to create the Japanese flag */
+.japanese-container {
+    border: 0.5px solid black;
+    height: 90px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-circle {
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; 
 }
 
